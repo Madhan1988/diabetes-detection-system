@@ -1,0 +1,35 @@
+# Dependency folders
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment variables (Sensitive!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project specific
+ml-service/model/*.pkl
+ml-service/model/feature_names.pkl
+ml-service/model/feature_importance.csv
